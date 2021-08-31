@@ -1,0 +1,35 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+frontend/.idea/
+frontend/.env
+frontend/src/ssl
+
+# dependencies
+frontend/node_modules
+frontend/.pnp
+frontend/.pnp.js
+
+# testing
+frontend/coverage
+
+# productionsrc/
+frontend/build
+
+# misc
+frontend/.DS_Store
+frontend/env.dev
+frontend/env.local
+frontend/env.prod
+
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+
+# Backend
+
+backend/backend/.env
+backend/db.sqlite3
+backend/env
+backend/key.pem
+backend/cert.pem
